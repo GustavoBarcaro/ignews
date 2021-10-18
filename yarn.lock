@@ -131,10 +131,32 @@
   resolved "https://registry.yarnpkg.com/@panva/asn1.js/-/asn1.js-1.0.0.tgz#dd55ae7b8129e02049f009408b97c61ccf9032f6"
   integrity sha512-UdkG3mLEqXgnlKsWanWcgb6dOjUzJ+XC5f+aWw30qrtjxeNUSfKX1cd5FBzOaXQumoe9nIqeZUvrRJS03HCCtw==
 
+"@prismicio/client@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-5.1.0.tgz#f236d7fca09535d61e599872e7c38afda62b8b3c"
+  integrity sha512-LCb+arVVxJOoPM+8qfLCC/Dqse7mh+Q1k3oo5W5Uzu7vVO+vtc7CUYHxgCDkvekakYHc9407kwWu65ErZw+CPQ==
+  dependencies:
+    cross-fetch "^3.0.6"
+
+"@prismicio/helpers@^1.0.4":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@prismicio/helpers/-/helpers-1.0.5.tgz#2be60a1b44e6c33d7918fa74fe67648dc8af0c15"
+  integrity sha512-TPpuAFHNxlCTrEihHnRKcq6zc0oZV0sfz5/iHoSpl5vorwPbwZWiF88JGeflNdefW4A69b5A3x3mfptKPdpoxg==
+
+"@prismicio/richtext@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@prismicio/richtext/-/richtext-1.1.0.tgz#c8769c3d953ae42854a2aba951e3b2121682b8c7"
+  integrity sha512-925JuFiZiIkwu9jmlR9O/U8xCSZk/Y6BQDXKpavoVsKo+n90ml1hGdtWkglIupX+ITQO1ZINyDgUgiY1oG9dsA==
+
 "@sqltools/formatter@^1.2.2":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.3.tgz#1185726610acc37317ddab11c3c7f9066966bd20"
   integrity sha512-O3uyB/JbkAEMZaP3YqyHH7TMnex7tWyCbCI4EfJdOCoN6HIhqdJBWTM6aCCiWQ/5f5wxjgU735QAIpJbjDvmzg==
+
+"@stripe/stripe-js@^1.17.1":
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.17.1.tgz#afcb7e86d0b05d1a7af53af89111abd2e8d437ae"
+  integrity sha512-c9MyDvdi5Xou0j0JPNy86NebtTDfh9o62Ifuzx6GSm2YO0oedBpy51WSyOue2L8Fb+mqESS5gd6mGVEIPUnXsA==
 
 "@types/next-auth@^3.15.0":
   version "3.15.0"
@@ -157,6 +179,11 @@
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.6.0.tgz#f0ddca5a61e52627c9dcb771a6039d44694597bc"
   integrity sha512-gCYSfQpy+LYhOFTKAeE8BkyGqaxmlFxe+n4DKM6DR0wzw/HISUE/hAmkC/KT8Sw5PCJblqg062b3z9gucv3k0A==
+
+"@types/prismic-dom@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@types/prismic-dom/-/prismic-dom-2.1.1.tgz#964f4699a3068721627674d12a0689e457e9065c"
+  integrity sha512-gZSFBARo4vFnpclOq2DzU9t4wikVsZ0+lL4hXaRoeUJinhGSK+nMERcZJgXglK/+QRcw3HBPbGJzgzTqQGSuNw==
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -308,6 +335,13 @@ available-typed-arrays@^1.0.2:
   integrity sha512-CuPhFULixV/d89POo1UG4GqGbR7dmrefY2ZdmsYakeR4gOSJXoF7tfeaiqMHGOMrlTiJoeEs87fpLsBYmE2BMw==
   dependencies:
     array.prototype.filter "^1.0.0"
+
+axios@^0.21.4:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 babel-plugin-syntax-jsx@6.18.0:
   version "6.18.0"
@@ -904,6 +938,11 @@ escalade@^3.1.1:
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
+escape-html@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
+  integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -986,6 +1025,11 @@ fn-annotate@^1.1.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/fn-annotate/-/fn-annotate-1.2.0.tgz#28da000117dea61842fe61f353f41cf4c93a7a7e"
   integrity sha1-KNoAARfephhC/mHzU/Qc9Mk6en4=
+
+follow-redirects@^1.14.0:
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
+  integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
 
 foreach@^2.0.5:
   version "2.0.5"
@@ -1869,6 +1913,15 @@ pretty-format@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
   integrity sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=
+
+prismic-dom@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/prismic-dom/-/prismic-dom-2.2.6.tgz#a7bbf54b8bcae00e44067c1b376cb7e275139ea9"
+  integrity sha512-b4TDkfNisfRPGBpvUSuHIs3bfCFqc7k9Eek81LM5ReHB8OrzTxYqvC6IukLPVMdxpCGCwbOfNQX4ae+2T0hbrQ==
+  dependencies:
+    "@prismicio/helpers" "^1.0.4"
+    "@prismicio/richtext" "^1.1.0"
+    escape-html "1.0.3"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
